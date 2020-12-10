@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-color: #0f0f11;
+}
+
+.navigation-container {
+    width: 20%;
+    max-width: 100px;
+    min-width: 70px;
+    border: 1px solid #1C1C1C;
+
+    
+}
+
+.main {
+    background-color: coral;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.tweets-sidebar-container {
+    background-color: cyan;
+    flex: 1;
+    display: flex; 
+}
+
+.tweets-sidebar {
+    width: 200px;
+    height: 500px;
+    margin: 20px;
+    background-color: bisque;
+}
+
+.tweets-list {
+    height: 500px;
+    margin: 20px;
+    background-color: lightblue;
+}
+
+.tweets-search-container {
+    height: 70px;
+    margin: 20px;
+    background-color: red;
+}
+
+.tweet-container {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    background-color: white;
+    margin: 10px;
+}
+
+
+.navigation {
+    color: white; 
+    margin-top: 30px; 
+}
+
+
+
+.logo {
+    display: flex; 
+    justify-content: center; 
+}
+
+.logo i {
+    font-size: 30px; 
+}
+
+.home-link {
+    display: flex; 
+    justify-content: center; 
+    border-right: 3px solid #00ADFF;
+    align-items: center; 
+    height: 40px; 
+    margin-top: 20px; 
+}
+
+.home-link i {
+    color: #00ADFF; 
+}
+
+.profile-container {
+    display: flex; 
+    justify-content: center;
+    margin-top: 20px; 
+
+}
+
+.profile { 
+    width: 30px; 
+    height: 30px; 
+    background-color: white; 
+    border-radius: 50%;
+    border: 1px solid #979797;
+}
